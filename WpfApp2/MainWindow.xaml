@@ -1,0 +1,52 @@
+﻿<Page x:Class="WpfApp2.Exercise2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Exercise2">
+
+    <Grid Background="LawnGreen" ShowGridLines="True">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Small -->
+        <Viewbox Grid.Column="0">
+            <TextBlock Text="Hello"
+                       FontSize="20"
+                       Background="HotPink"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+        </Viewbox>
+
+        <!-- Medium -->
+        <Viewbox Grid.Column="1">
+            <TextBlock Text="Hello"
+                       FontSize="40"
+                       Background="HotPink"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+        </Viewbox>
+
+        <!-- Large -->
+        <Viewbox Grid.Column="2">
+            <TextBlock Text="Hello"
+                       FontSize="80"
+                       Background="HotPink"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+        </Viewbox>
+
+        <!-- Huge (like your teacher’s slide) -->
+        <Viewbox Grid.Column="3">
+            <TextBlock Text="Hello"
+                       FontSize="160"
+                       Background="HotPink"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+        </Viewbox>
+
+    </Grid>
+</Page>
