@@ -5,7 +5,7 @@
 
     <Grid ShowGridLines="True">
 
-        <!-- The screenshot shows 7 columns -->
+       
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
             <ColumnDefinition Width="1*" />
@@ -16,7 +16,7 @@
             <ColumnDefinition Width="1*" />
         </Grid.ColumnDefinitions>
 
-        <!-- The screenshot shows 6 rows -->
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="1*" />
             <RowDefinition Height="1*" />
@@ -26,25 +26,25 @@
             <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
 
-        <!-- Purple block (Row 1, Column 0) -->
+        
         <Rectangle Fill="Purple" Grid.Row="1" Grid.Column="0" />
 
-        <!-- Orange block (Row 3, Column 0) -->
+        
         <Rectangle Fill="Orange"
          Grid.Row="4" Grid.Column="0"
          Grid.ColumnSpan="1"
          Grid.RowSpan="6" />
 
-        <!-- Green oval (Row 0, Column 5) -->
+        
         <Ellipse Fill="Green"
          Grid.Row="0" Grid.Column="5"
          Grid.ColumnSpan="2"
          Grid.RowSpan="1" />
 
-        <!-- Red circle (Row 2, Column 3) -->
+        
         <Ellipse Fill="Red" Grid.Row="3" Grid.Column="4" />
 
-        <!-- Yellow oval (Row 4, Column 5) -->
+        
         <Ellipse Fill="Yellow"
          Grid.Row="4" Grid.Column="5"
          Grid.ColumnSpan="2"
